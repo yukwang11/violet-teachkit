@@ -336,6 +336,66 @@ canvas{
 }
 
 /* ==========================
+Homepage - tool section
+========================== */
+.tools-section {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 55px;
+    text-align: center;
+}
+
+.tools-section h2 {
+    font-size: 34px;
+    margin-bottom: 28px;
+    color: #333;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+
+.tool-card {
+    display: block;
+    padding: 28px 24px;
+    border-radius: 18px;
+    background: white;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 14px 35px rgba(0,0,0,.1);
+    transition: .25s;
+}
+
+.tool-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 45px rgba(123,77,255,.18);
+}
+
+.tool-icon {
+    font-size: 42px;
+    margin-bottom: 14px;
+}
+
+.tool-card h3 {
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+
+.tool-card p {
+    margin: 0;
+    line-height: 1.5;
+    color: #666;
+    font-size: 15px;
+}
+
+.coming-soon {
+    opacity: .55;
+    cursor: not-allowed;
+}
+
+/* ==========================
 img
 ========================== */
 .profile-image{
