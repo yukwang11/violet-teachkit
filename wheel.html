@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin Wheel</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<nav class="navbar">
+        <div class="logo">Violet TeachKit</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="wheel.html">Spin Wheel</a>
+        </div>
+</nav>
+
+<div id="confettiContainer"></div>
+
+<div class="container">
+
+    <div class="left-panel">
+        <h1>Spin Wheel ✨</h1>
+
+        <label>Enter options, one per line</label>
+
+        <textarea id="itemsInput" placeholder="One item per line...">
+Apple
+Banana
+Orange
+Mango
+Watermelon
+Grapes
+Pineapple
+Strawberry
+        </textarea>
+
+        <button id="createWheel" class="create-btn">
+            ⚙️ Create Wheel
+        </button>
+
+        <button id="spinBtn" class="spin-btn">
+            ▶️ Spin
+        </button>
+
+        <button id="resetBtn" class="reset-btn">
+            ↻ Reset
+        </button>
+    </div>
+
+    <div class="right-panel">
+
+        <div class="wheel-area">
+            <canvas id="wheelCanvas" width="600" height="600"></canvas>
+            <div id="pointer"></div>
+            <div class="wheel-center"></div>
+        </div>
+
+        <div id="resultBox" class="result-box hidden">
+            <div class="result-label">🎉 Result:</div>
+            <div id="result" class="result-text"></div>
+
+            <button id="spinAgainBtn" class="again-btn">
+                ↻ Spin Again
+            </button>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
