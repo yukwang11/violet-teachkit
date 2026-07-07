@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timer | Violet TeachKit</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Violet TeachKit</div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="wheel.html">Spin Wheel</a>
+        <a href="timer.html">Class Timer</a>
+    </div>
+</nav>
+
+<main class="timer-page">
+
+    <section class="timer-card">
+
+        <h1>Class Timer</h1>
+
+        <p class="timer-intro">
+            Choose how you want the countdown to display.
+        </p>
+
+        <div class="timer-mode">
+            <button id="secondsMode" class="mode-btn active">
+                Show minutes and seconds
+            </button>
+
+            <button id="minutesMode" class="mode-btn">
+                Show minutes only
+            </button>
+        </div>
+
+        <div class="timer-inputs">
+            <label>
+                Minutes
+                <input id="minutesInput" type="number" min="0" value="5">
+            </label>
+
+            <label id="secondsInputBox">
+                Seconds
+                <input id="secondsInput" type="number" min="0" max="59" value="0">
+            </label>
+        </div>
+
+        <div id="timerDisplay" class="timer-display">
+            05:00
+        </div>
+
+        <div class="timer-buttons">
+            <button id="startTimer" class="timer-start">Start</button>
+            <button id="pauseTimer" class="timer-pause">Pause</button>
+            <button id="resetTimer" class="timer-reset">Reset</button>
+        </div>
+
+    </section>
+
+</main>
+
+<script src="/js/timer.js"></script>
+
+</body>
+</html>
