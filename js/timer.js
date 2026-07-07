@@ -45,6 +45,8 @@ function getInputTime() {
 function startTimer() {
     if (timerInterval || remainingSeconds <= 0) return;
 
+    setRunningState(true);
+
     timerInterval = setInterval(() => {
         remainingSeconds--;
 
@@ -53,6 +55,9 @@ function startTimer() {
         if (remainingSeconds <= 0) {
             clearInterval(timerInterval);
             timerInterval = null;
+
+            setRunningState(false);
+
             timerDisplay.textContent = "Time's up!";
             timerDisplay.classList.add("time-up");
         }
@@ -62,12 +67,16 @@ function startTimer() {
 function pauseTimer() {
     clearInterval(timerInterval);
     timerInterval = null;
+
+    setRunningState(false);
 }
 
 function resetTimer() {
     pauseTimer();
     timerDisplay.classList.remove("time-up");
     getInputTime();
+
+    setRunningState(false);
 }
 
 function setRunningState(running) {

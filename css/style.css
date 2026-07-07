@@ -497,6 +497,23 @@ Homepage - tool section
     color: white;
 }
 
+.timer-start.running {
+    background: linear-gradient(135deg, #ff3b70, #ff8c1a);
+    color: white;
+    box-shadow: 0 0 0 5px rgba(255, 59, 112, 0.16),
+                0 12px 30px rgba(255, 59, 112, 0.35);
+    animation: runningPulse 1s infinite alternate;
+}
+
+@keyframes runningPulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.04);
+    }
+}
+
 .timer-pause {
     background: linear-gradient(135deg, #ffca3a, #ff8c1a);
     color: white;
