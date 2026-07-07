@@ -42,6 +42,24 @@ function getInputTime() {
     updateDisplay();
 }
 
+function setRunningState(running) {
+    if (running) {
+        startBtn.classList.add("running");
+
+        minutesInput.disabled = true;
+        secondsInput.disabled = true;
+        secondsModeBtn.disabled = true;
+        minutesModeBtn.disabled = true;
+    } else {
+        startBtn.classList.remove("running");
+
+        minutesInput.disabled = false;
+        secondsInput.disabled = false;
+        secondsModeBtn.disabled = false;
+        minutesModeBtn.disabled = false;
+    }
+}
+
 function startTimer() {
     if (timerInterval || remainingSeconds <= 0) return;
 
@@ -77,14 +95,6 @@ function resetTimer() {
     getInputTime();
 
     setRunningState(false);
-}
-
-function setRunningState(running) {
-    if (running) {
-        startBtn.classList.add("running");
-    } else {
-        startBtn.classList.remove("running");
-    }
 }
 
 secondsModeBtn.addEventListener("click", () => {
