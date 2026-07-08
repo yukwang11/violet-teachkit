@@ -145,9 +145,7 @@ GitHub stores the source code.
 
 Cloudflare Pages automatically deploys after every push.
 
-Production website:
-
-https://violet-teachkit.pages.dev
+Production website: https://violet-teachkit.pages.dev
 
 ---
 
@@ -156,41 +154,25 @@ https://violet-teachkit.pages.dev
 ## GitHub
 
 Purpose
-
 - Source code
 - Version control
-
 
 ---
 
 ## Cloudflare Pages
 
 Purpose
-
 - Automatic deployment
 - Website hosting
-
-Useful pages
-
-Deployments
-
-Check whether the latest version has been deployed.
-
-Settings
-
-Project settings.
 
 ---
 
 ## Google Search Console
 
 Purpose
-
 - Google indexing
 - SEO
 - Search performance
-
-Useful pages
 
 ### URL Inspection
 
@@ -199,7 +181,6 @@ Request indexing for new pages.
 ### Sitemaps
 
 Submit
-
 ```
 sitemap.xml
 ```
@@ -213,27 +194,16 @@ Check indexing status.
 ## Google Analytics 4
 
 Purpose
-
 - Visitor analytics
 - User behaviour
 - Popular tools
-
-
-Setup
-
-Create your own GA4 property and replace the Measurement ID in the HTML files.
 
 ---
 
 # SEO Files
 
-robots.txt
-
-Allows search engines to crawl the website.
-
-sitemap.xml
-
-Lists all website pages.
+- robots.txt: Allows search engines to crawl the website.
+- sitemap.xml: Lists all website pages.
 
 ---
 
@@ -255,6 +225,4 @@ Created by
 
 **Yuke Wang**
 
-Master of Teaching (Secondary)
-
-Edith Cowan University
+Education of Teaching (Secondary) | Edith Cowan University
