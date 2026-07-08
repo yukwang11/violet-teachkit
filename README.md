@@ -1,15 +1,15 @@
 # Violet TeachKit 🍎
 
-Violet TeachKit is a growing collection of practical classroom tools designed to support teaching, classroom management, and student engagement.
+A growing collection of practical classroom tools designed to support teaching, classroom management, and student engagement.
 
-Website  
+🌐 Website  
 https://violet-teachkit.pages.dev/
 
 ---
 
-## Current Tools
+# Current Tools
 
-### Spin Wheel
+## Spin Wheel
 
 Randomly select:
 
@@ -19,32 +19,32 @@ Randomly select:
 - Classroom activities
 - Any custom list
 
-Features:
+Features
 
 - Unlimited entries
 - Smooth spinning animation
 - Confetti celebration
-- Responsive design
-
----
-
-### Class Timer
-
-Two countdown modes:
-
-- Minutes + Seconds
-- Minutes Only (ideal for classroom projection)
-
-Features:
-
-- Start / Pause / Reset
-- Running status indicator
-- Inputs locked while counting down
 - Responsive layout
 
 ---
 
-## Planned Tools
+## Class Timer
+
+Two countdown modes
+
+- Minutes + Seconds
+- Minutes Only
+
+Features
+
+- Start / Pause / Reset
+- Running indicator
+- Inputs locked while counting down
+- Responsive design
+
+---
+
+# Planned Tools
 
 - 👥 Random Group Generator
 - 🎲 Dice Roller
@@ -57,10 +57,204 @@ Features:
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- Vanilla JavaScript
 - Canvas API
+- GitHub
+- Cloudflare Pages
+- Google Search Console
+- Google Analytics 4
 
+---
+
+# Project Structure
+
+```
+VioletTeachKit/
+
+│
+├── index.html
+├── wheel.html
+├── timer.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   ├── script.js
+│   └── timer.js
+│
+├── images/
+│
+├── robots.txt
+├── sitemap.xml
+├── README.md
+└── .gitignore
+```
+
+---
+
+# Development Workflow
+
+## Edit locally
+
+Modify the project in VS Code.
+
+---
+
+## Test locally
+
+Open
+
+```
+index.html
+```
+
+or run
+
+```
+python3 -m http.server
+```
+
+and visit
+
+```
+http://localhost:8000
+```
+
+---
+
+## Commit
+
+```
+git add .
+
+git commit -m "Your message"
+
+git push
+```
+
+GitHub stores the source code.
+
+---
+
+## Deployment
+
+Cloudflare Pages automatically deploys after every push.
+
+Production website:
+
+https://violet-teachkit.pages.dev
+
+---
+
+# Services
+
+## GitHub
+
+Purpose
+
+- Source code
+- Version control
+
+
+---
+
+## Cloudflare Pages
+
+Purpose
+
+- Automatic deployment
+- Website hosting
+
+Useful pages
+
+Deployments
+
+Check whether the latest version has been deployed.
+
+Settings
+
+Project settings.
+
+---
+
+## Google Search Console
+
+Purpose
+
+- Google indexing
+- SEO
+- Search performance
+
+Useful pages
+
+### URL Inspection
+
+Request indexing for new pages.
+
+### Sitemaps
+
+Submit
+
+```
+sitemap.xml
+```
+
+### Pages
+
+Check indexing status.
+
+---
+
+## Google Analytics 4
+
+Purpose
+
+- Visitor analytics
+- User behaviour
+- Popular tools
+
+
+Setup
+
+Create your own GA4 property and replace the Measurement ID in the HTML files.
+
+---
+
+# SEO Files
+
+robots.txt
+
+Allows search engines to crawl the website.
+
+sitemap.xml
+
+Lists all website pages.
+
+---
+
+# Future Improvements
+
+- Dark mode
+- Mobile optimisation
+- Tool search
+- User favourites
+- Tool categories
+- Keyboard shortcuts
+- PWA support
+
+---
+
+# Author
+
+Created by
+
+**Yuke Wang**
+
+Master of Teaching (Secondary)
+
+Edith Cowan University
