@@ -1,0 +1,6 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://violet-teachkit.pages.dev/sitemap.xml
+
