@@ -61,3 +61,64 @@
 .nav-links a:hover {
     color: #8d52ff;
 }
+
+/* ==========================
+   Navbar Responsive
+========================== */
+
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+        padding: 16px 24px;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .logo-group {
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .logo-icon {
+        width: 34px;
+        height: 34px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .nav-links a {
+        margin-left: 0;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+    .navbar {
+        padding: 14px 16px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .logo-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+}
