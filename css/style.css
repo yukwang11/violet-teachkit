@@ -99,6 +99,10 @@ body{
     color: #8d52ff;
 }
 
+/* ==========================
+   Homepage
+========================== */
+
 .home-page {
     min-height: calc(100vh - 70px);
     display: flex;
@@ -107,7 +111,7 @@ body{
     align-items: center;
     text-align: center;
     background: radial-gradient(circle at top, #ffffff, #f3f1ff);
-    padding:60px 20px;
+    padding:0 0px 20px;
 }
 
 .home-page h1 {
@@ -123,6 +127,7 @@ body{
 .hero{
     max-width:800px;
     text-align:center;
+    padding:0 20px;
 }
 
 .hero h1{
@@ -135,6 +140,14 @@ body{
     line-height:1.8;
     color:#555;
     margin:0 auto;
+}
+
+.homepage-cover{
+    width:100vw;
+    max-width:100vw;
+    height:auto;
+    display:block;
+    margin:0 0 50px;
 }
 
 /* ==========================
