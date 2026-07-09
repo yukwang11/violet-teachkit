@@ -1,0 +1,125 @@
+/* ==========================
+   Homepage
+========================== */
+
+.home-page {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(circle at top, #ffffff, #f3f1ff);
+    padding:0 0px 20px;
+}
+
+.home-page h1 {
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.home-page p {
+    font-size: 22px;
+    color: #666;
+}
+
+.hero{
+    max-width:800px;
+    text-align:center;
+    padding:0 20px;
+}
+
+.hero h1{
+    margin-bottom:24px;
+    font-size:clamp(48px,5vw,52px);
+}
+
+.hero p{
+    font-size:clamp(18px,1.3vw,22px);
+    line-height:1.8;
+    color:#555;
+    margin:0 auto;
+}
+
+.homepage-cover{
+    width:100vw;
+    max-width:100vw;
+    height:auto;
+    display:block;
+    margin:0 0 50px;
+}
+
+/* ==========================
+Homepage - tool section
+========================== */
+.tools-section {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 55px;
+    text-align: center;
+}
+
+.tools-section h2 {
+    font-size: 34px;
+    margin-bottom: 28px;
+    color: #333;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+
+.tool-card {
+    display: block;
+    padding: 28px 24px;
+    border-radius: 18px;
+    background: white;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 14px 35px rgba(0,0,0,.1);
+    transition: .25s;
+}
+
+.tool-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 45px rgba(123,77,255,.18);
+}
+
+.tool-icon {
+    font-size: 42px;
+    margin-bottom: 14px;
+}
+
+.tool-card h3 {
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+
+.tool-card p {
+    margin: 0;
+    line-height: 1.5;
+    color: #666;
+    font-size: 15px;
+}
+
+.coming-soon {
+    opacity: .55;
+    cursor: not-allowed;
+}
+
+/* ==========================
+external-tool section
+========================== */
+.external-tool{
+    border:2px dashed #d8cdfd;
+}
+
+.external-tool:hover{
+    border-color:#8d52ff;
+}
+
+.tools-section + .tools-section{
+    margin-top:70px;
+}

@@ -1,0 +1,12 @@
+/* ==========================
+   Responsive Variables
+========================== */
+
+:root{
+    --wheel-size:min(55vw,500px);
+    --panel-width:min(350px,28vw);
+    --title-size:clamp(32px,3vw,48px);
+    --button-font:clamp(16px,1.1vw,20px);
+    --result-size:clamp(10px,9vw,70px);
+    --label-size:clamp(10px,1vw,15px);
+}
